@@ -8,13 +8,13 @@ function getIt(){
 
 function frameIt(){
   $('img').on('load', function(){
-    addClass("tasty")
+    addClass("tasty");
   })
 }
 
 $(document).ready(function(){
 
-getIt()
-frameIt()
+getIt();
+frameIt();
 
 });
